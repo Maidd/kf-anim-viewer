@@ -1,0 +1,23 @@
+* {
+    font-family: 'Slabo 27px', serif;
+}
+html {
+    background-image: url("./bg.png")
+}
+.title {
+    color: #f9fff4;
+    font-size: 54px;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+.desc {
+    color: #f9fff4;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+#gameContainer {
+    margin: 2px auto !important;
+}

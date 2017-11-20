@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Kemono Friends Animation Viewer</title>
+    <script src="Build/UnityLoader.js"></script>
+    <link href="stylesheet.css" rel="stylesheet">
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/kfAnimWebGl.json");
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="title">Kemofure Animation Viewer</h1>
+    <p class="desc">A place where you can view the original game's animation</p>
+    <br>
+    <div id="gameContainer" style="width: 1280px; height: 720px; margin: auto"></div>
+  </body>
+</html>
